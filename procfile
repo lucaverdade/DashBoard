@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True notebooks/ Projetp.EsporteAPC.ipynb
+web: gunicorn app:server
